@@ -24,17 +24,20 @@ body {
   padding: 15px;
 }
 
-.page-container > div {
+.page-container > .article {
   display: inline-block;
-  width: calc(1000px / 3 - 130px);
   margin: 15px 5px;
+}
+
+.outfit {
+  width: calc(1000px / 3 - 130px);
   height: 290px;
-  border: 1px #ccc solid;
   background-size: 100%;
   position: relative;
 }
 
-span {
+.price,
+.eco {
   position: absolute;
   font-size: 8px;
   color: #fff;
@@ -50,6 +53,31 @@ span {
   background-color: white;
   cursor: pointer;
 }
+
+/* Info sui vestiti */
+
+.info {
+  text-align: left;
+  margin-top: 5px;
+}
+
+.info > span:nth-child(1) {
+  font-size: 10px;
+}
+
+.red {
+  font-size: 10px;
+  color: #ec073a;
+  font-weight: bold;
+}
+
+.deleted {
+  font-size: 10px;
+  color: black;
+  text-decoration: line-through;
+}
+
+/* Hearth & Price */
 
 .hearth:hover {
   color: #ec073a;
