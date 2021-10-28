@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+  background-color: white;
+}
+
+body {
+  background-color: #dee0e0;
+}
+
+.page-container {
+  width: 860px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
