@@ -34,6 +34,8 @@ body {
   position: relative;
 }
 
+/* setup immagini */
+
 .levis {
   background-image: url("img-css/1.webp");
 }
@@ -59,3 +61,27 @@ body {
 }
 
 /* Contenuto con l'Hover */
+
+.levis:hover {
+  background-image: url("img-css/1b.webp");
+}
+
+.guess:hover {
+  background-image: url("img-css/2b.webp");
+}
+
+.green-girl:hover {
+  background-image: url("img-css/3b.webp");
+}
+
+.levis-second:hover {
+  background-image: url("img-css/4b.webp");
+}
+
+.elegant:hover {
+  background-image: url("img-css/5b.webp");
+}
+
+.skirt:hover {
+  background-image: url("img-css/6b.webp");
+}
