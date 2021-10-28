@@ -23,3 +23,39 @@ body {
   text-align: center;
   padding: 15px;
 }
+
+.page-container > div {
+  display: inline-block;
+  width: calc(1000px / 3 - 130px);
+  margin: 15px 5px;
+  height: 290px;
+  border: 1px #ccc solid;
+  background-size: 100%;
+  position: relative;
+}
+
+.levis {
+  background-image: url("img-css/1.webp");
+}
+
+.guess {
+  background-image: url("img-css/2.webp");
+}
+
+.green-girl {
+  background-image: url("img-css/3.webp");
+}
+
+.levis-second {
+  background-image: url("img-css/4.webp");
+}
+
+.elegant {
+  background-image: url("img-css/5.webp");
+}
+
+.skirt {
+  background-image: url("img-css/6.webp");
+}
+
+/* Contenuto con l'Hover */
