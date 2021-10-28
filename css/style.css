@@ -34,6 +34,31 @@ body {
   position: relative;
 }
 
+span {
+  position: absolute;
+  font-size: 8px;
+  color: #fff;
+  padding: 3px;
+}
+
+.price {
+  bottom: 5px;
+  left: 0px;
+  background-color: #ec073a;
+}
+
+.eco {
+  bottom: 5px;
+  left: 27px;
+  background-color: #1a926a;
+}
+
+.skirt > .eco {
+  bottom: 5px;
+  left: 0px;
+  background-color: #1a926a;
+}
+
 /* setup immagini */
 
 .levis {
